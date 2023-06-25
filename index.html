@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammarly - Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Real Time character Counter</h2>
+        <p>Check Your English text for grammer, spelling and punctuation errors with real time char counter</p>
+
+        <textarea  id="textarea"  class="textarea" maxlength="500" placeholder="Please Write here"></textarea> <!--text Area where will write -->
+        <button onclick="CopyText()">Copy Text</button> <!-- Make a function to copy what he write using onclick  -->
+
+        <div class="counter-container">
+            <p>Total character: <span id="total-counter">0</span></p>
+            <p>Remaining character: <span id="remaining-counter">500</span></p>
+        </div>
+    </div>
+    <script src="Index.js"></script>
+</body>
+</html>
